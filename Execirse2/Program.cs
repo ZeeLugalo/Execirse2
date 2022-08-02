@@ -7,13 +7,12 @@ namespace Execirse2
         static void Main(string[] args)
         {
             int[] myArray = { 2, 4, 6, 9 };
-            bool answer = false;
             for (int i = 0; i < myArray.Length; i++)
             
             {
                 if (myArray[i] % 2 == 0) 
                 {
-                    answer = false;
+                    bool answer = false;
                     { 
 
                     answer=true;
